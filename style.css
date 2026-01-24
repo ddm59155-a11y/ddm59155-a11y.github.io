@@ -88,6 +88,12 @@ Color:#9D08F3;
 border-radius:7px;
 }
 
+.arrondie1 {
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+
 a:link {
   color:#163880;
   text-decoration: none;
