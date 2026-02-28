@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mon site : danse et chats</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Bienvenue sur mon site</h1>
+
+<nav>
+<a href="index.html">Accueil</a>
+<a href="danse.html">La danse</a>
+<a href="chats.html">Les chats</a>
+</nav>
+</header>
+
+<h2>Mes passions</h2>
+
+<p>Sur ce site je vais vous présenter deux choses que j'aime beaucoup : la danse et les chats.</p>
+
+<h3>Musique d'ambiance</h3>
+
+<audio id="musique">
+<source src="musique.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('musique').play()">Play</button>
+<button onclick="document.getElementById('musique').pause()">Pause</button>
+<button onclick="document.getElementById('musique').currentTime=0; document.getElementById('musique').pause()">Stop</button>
+
+<h3>Quelques images</h3>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Dancer.jpg" alt="danse">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" alt="chat">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Ballet_dancer.jpg" alt="ballet">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/June_odd-eyed-cat.jpg" alt="chat blanc">
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+body
+{
+background-color: #27F5F2;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+nav
+{
+margin: 20px;
+}
+
+nav a
+{
+margin: 15px;
+font-size: 20px;
+text-decoration: none;
+}
+
+a:link
+{
+color: #FFFFFF;
+}
+
+a:visited
+{
+color: #F5BE27;
+}
+
+a:hover
+{
+color: #F527EE;
+}
+
+img
+{
+width: 250px;
+margin: 10px;
+}
+
+iframe
+{
+margin: 20px;
+}
